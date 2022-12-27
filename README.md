@@ -1,6 +1,8 @@
 # convertMusic
 Este es un programa que hice para convertir música de un formato a otro porque la radio del auto de mi padre solo acepta mp3 chotos y se reúsa a reproducir cualquier otra cosa y yo me rehúso a convertir toda mi música de a uno.
 
+Permite convertir toda la música de una carpeta a otro formato y dejarlo en otra carpeta.
+
 # Instalación
 ## Dependencias
 ```
@@ -23,7 +25,7 @@ node.js
         "targetFormat": "mp3"
     }
     ```
-* En ``` "inputFolder": ``` debes poner la carpeta en la que tienes guardada la música que quieres convertir.
-* En ``` "outputFolder": ``` debes poner la carpeta en la que quieres que se guarden los archivos convertidos.
+* En ``` "inputFolder": ``` debes poner la carpeta (ruta completa) en la que tienes guardada la música que quieres convertir.
+* En ``` "outputFolder": ``` debes poner la carpeta (ruta completa) en la que quieres que se guarden los archivos convertidos.
 * En ``` "targetFormat": ``` debes poner el formato al que quieres convertir la música.
 * Para ejecutar el programa, abre una terminal en la carpeta donde tengas el programa y escribe ``` node main.js ``` o ``` npm start ``` (si tienes npm).
